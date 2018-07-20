@@ -1,6 +1,6 @@
 var katzDeli = []
 
-function takeANumber(katzDeliLine, n){
+function takeANumber(katzDeliLine, n){  //params: line of ppl array, new person
   katzDeliLine.push(n)
   return ('Welcome, '+n+'. You are number ' +(katzDeliLine.length)+' in line.')
 }
